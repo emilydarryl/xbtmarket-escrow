@@ -1,0 +1,523 @@
+{
+  "schema": "xbt-escrow-source-release-v1",
+  "sourceRevision": "a0354ff042a02878c0dfab73dc4818f1b339a451",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+    },
+    {
+      "path": "config/market-review-rules.json",
+      "sha256": "d91d2809589320c4acf62916920f18f8a11c78ebefc2b5c752b34aec8c76a7e6"
+    },
+    {
+      "path": "experiments/escrow-mobile/lib/escrow_signer.dart",
+      "sha256": "4d5d2237c7c90b935c98c522eb2a6330010d8ab17516ad144ea6f092cb339a15"
+    },
+    {
+      "path": "experiments/escrow-mobile/lib/unified_digest.dart",
+      "sha256": "fbecb70a851afcc63696f2d9c27139842ad24bcb6e4200ed9c4daaee2eb8033b"
+    },
+    {
+      "path": "experiments/escrow-mobile/pubspec.lock",
+      "sha256": "633fd46dc8b725b24902418e5dbccad6e1a02cf60bbb016b8df8f7ccda1cb492"
+    },
+    {
+      "path": "experiments/escrow-mobile/pubspec.yaml",
+      "sha256": "c735a30ddbf1334643de02c371d12c081d7a0c08c6289875814ad1cf90c11942"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/analysis_options.yaml",
+      "sha256": "e0ea485cfdbc3e12b93efb8679a5ea73ebfe20ea4ca0c473dc594fc2fb274ed5"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/android/app/build.gradle.kts",
+      "sha256": "7ae1b8b74166310ec424e6036d805f09d37f51b8e61f78f97aaee0a2162c52a7"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/android/app/src/debug/AndroidManifest.xml",
+      "sha256": "fe45a1c10172b2d1482471ec34e12caf3d0d8fe967c41c0d64a246f0a9f17fa6"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/android/app/src/main/AndroidManifest.xml",
+      "sha256": "67ef4130f8bc507ca22e1242db5c212d27024bc16df4036bde68d0c94ecc58d3"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/android/app/src/main/kotlin/tech/xbtpulse/xbt_escrow_rehearsal/MainActivity.kt",
+      "sha256": "ff5330e60cddb134a1a9eace1aa74687bb1524d5487b87011fa5d03acf519dc1"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/android/app/src/main/res/drawable-v21/launch_background.xml",
+      "sha256": "7ca6d5cec2169c5a98661a119db23a6f3399c8fef2256ff04f3a642831282478"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/android/app/src/main/res/drawable/ic_rehearsal.xml",
+      "sha256": "438cf7af8bed6fec8cc8dd8185907ce6a16219952bcd8137e0397db6e01a9cf2"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/android/app/src/main/res/drawable/launch_background.xml",
+      "sha256": "94433756fe10005ddd6fc55cc5c0b1e9f3c10b66a08ceac795ece6713d34e28a"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/android/app/src/main/res/values-night/styles.xml",
+      "sha256": "8c5bad5152f217e837519f9c15211d19f39bd45f5f67faf6dd81cb4b299e518f"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/android/app/src/main/res/values/styles.xml",
+      "sha256": "937d7c82f539c72eb94fd3a3773f29b3d3fef1997213c92cb632298cedf4bda9"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/android/app/src/profile/AndroidManifest.xml",
+      "sha256": "fe45a1c10172b2d1482471ec34e12caf3d0d8fe967c41c0d64a246f0a9f17fa6"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/android/build.gradle.kts",
+      "sha256": "6a26dba2cb8dfba1e74f540b0d17a89d96c1301d3c3bfda14348bed257fddcba"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/android/gradle.properties",
+      "sha256": "92bb56923921fff5ab662783329a11636fa1849170b1f554a1da37684318c91c"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/android/gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "3221993eac1057198d652b7437105e2953ca4850d415eb0eb2b9625874fd059e"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/android/settings.gradle.kts",
+      "sha256": "b76d554153a63772dddbe2ee91abdf582f5f871af40698b80a2ef7b70903d96f"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/assets/device-selftest.json",
+      "sha256": "c2529cad5216675de5fbe3e6ac3b31f972941ba1c497afe8aeb76d4831aecc5e"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/assets/release.json",
+      "sha256": "c7190a63815b9f895f3f09b9873f149b4d3db5fe7b78e93459a7b5c4b32a0f71"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/approved_payout.dart",
+      "sha256": "d66b28c52e5cef72fc75b58ee2ef50b3ad71275c96c2774315bccb775b8bcd6e"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/approved_payout_panel.dart",
+      "sha256": "8d97e9e2e80c229a20ea4b35ebf6b15b3886d1ecd7648ce8d186b172da6beaa3"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/device_restart_check.dart",
+      "sha256": "565291e6f1590a79fa6d12aef69ad8897392f074735a5ea115f76dbd27f3e7e0"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/device_restart_platform.dart",
+      "sha256": "4f3f2814444a1d453b026814416ad629bb5a87cd364cf23481daa0eb26f03777"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/device_selftest.dart",
+      "sha256": "af85f8731eb2314060901f9fd55f33b7bffadbbac4664885e77c241f0941d29b"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/draft_consent.dart",
+      "sha256": "8d3c79979f955eb5b17dd06f4c0a17ccd20e1aa2f48daa5f681922d69b89430e"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/draft_consent_panel.dart",
+      "sha256": "3b8131a324835c9d529c36e752f13306d50f65864f75470cf0b862b857c76a02"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/funding_draft.dart",
+      "sha256": "342f1a0b6ced9f9ce8e64549ca90c84f948dbcdc6748b9329928aaa700506417"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/main.dart",
+      "sha256": "fdcc27053a8173428b498f5ca9d9b6db32c2d4db88b43787ee8055aef96dcc6c"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/main_enrollment.dart",
+      "sha256": "7bf9891fc7fd4d55a9170af751a5d44eba862290dde86d9052ff20338ec189af"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/main_production.dart",
+      "sha256": "62221fb049796b178b0bf142a33dfde183f5a6ee8229748291156ee7de7c63a8"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/main_selftest.dart",
+      "sha256": "025211980b8987e3efdd141d5352064e9359f5578bcb8c8d728abb4ff6697634"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/production_app.dart",
+      "sha256": "60e07a0d494f65d7e8838ebfb91922de9881c4cc3df2ef480621dfd694fbc462"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/production_contract.dart",
+      "sha256": "fc686cdf7fc3364941d5bf794310c5d1b7f1f358f3594c2ca34819050a354a30"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/production_device_store.dart",
+      "sha256": "d67e530af401f853ba33d8e2376cf2afe28dcd75676e8c9d9fe958b5c69dff79"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/production_funding.dart",
+      "sha256": "d86cbaff7dbebca957289a42c4ff2426ba46303b642a8ad632dcbd7ff7f55804"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/production_funding_panel.dart",
+      "sha256": "27e4be3d041f60eafe600abb2161b49fe89ff48e46672c55ef567f0339b72472"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/production_identity.dart",
+      "sha256": "689b6a85fa18a8c643b890579f095f1cc02089a6cb32f5126c67aa9b03d70b1a"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/production_order_keys.dart",
+      "sha256": "43dbbfc4fdeab4e1bb1d58cd1eada8e4ecccfcb77fc37418974deb3228c6aa0c"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/production_resolution.dart",
+      "sha256": "d51dbadb1c3b1fb95506a2da0bdf93c1c5288b6cde6e5d3573d27ecd3b831ff1"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/production_resolution_panel.dart",
+      "sha256": "274bc180b4f79f800ee3bcadfa14074d1fcfc041f5cd97fedfb4d40f95d97f93"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/production_spend.dart",
+      "sha256": "bcb7fc6d447b7706ceee562772bafdc201d00c09408ef881a3e892b8fc22e424"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/production_spend_panel.dart",
+      "sha256": "4fa29f02a055ed82eb1d939a5b5813718f82ccf1715e668422b98b81d4b60cd8"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/production_transfer.dart",
+      "sha256": "58018d2d049a2d997d7e2992c36f717a080e554544cbc450e3db6dc967ad8479"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/production_transfer_panel.dart",
+      "sha256": "9e5e3c32b946577fd371c420315533059309398d4b9946c36b4e614a7b4bf845"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/production_withdrawal.dart",
+      "sha256": "9d2f3506ec72ef832b30160778340cdef5f8d62b828ab84d87e0a9057ba24db9"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/production_withdrawal_panel.dart",
+      "sha256": "19ab5340e71ec5d2c8379625c08e5caead9c4f8bf50061533a98ac53385597ca"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/rehearsal.dart",
+      "sha256": "85f00547ae457f50e11c2723e0fc07f9efbc27cc9705357058acac2c2e0c9663"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/lib/shared_order.dart",
+      "sha256": "fc6f5bab130545aa2305596dac73ab0ab9393b1eb7346168e7d8898f8f44de54"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/pubspec.lock",
+      "sha256": "440752f89869b5cc783637eeb86565cf0e8cf57e7674a9176167cb12a6d0e347"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/pubspec.yaml",
+      "sha256": "819364da532266db980a6604a9b5ca393092297623db31f306e56d6e587944f3"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test-fixtures/approved-payout.json",
+      "sha256": "8156aba55a34720f337f5e25d00728c1bf23be5dbed65f553c7c6a1d6fbe6b4b"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test-fixtures/dart-consent-proofs.json",
+      "sha256": "4240730019972423ba180ceceec2266cca6381e76c6e4991764f35a0192168ba"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test-fixtures/draft-consent.json",
+      "sha256": "a36b5700e73853f4e53904c89a7e2e871b5a25a0d1669dc152d733862f633d35"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test-fixtures/funding-draft.json",
+      "sha256": "9060daeb308ebb503635066b139ec9b9924d9af56d968567a5d147460a48ef0f"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test-fixtures/production-contract.json",
+      "sha256": "f968d9aadd515b9930b78c5416fcad6db0a2aac49f17e21b58ab9863e96ce2ee"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test-fixtures/production-funding.json",
+      "sha256": "39d1ced612129fce63f125e30af10b13b6f49750f5679149ec66837d39d73f7a"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test-fixtures/production-mediator-recovery.json",
+      "sha256": "4bc819ab4dfff035dcc1c244909496a23ce9eabd201bcad809d4bc05f875352c"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test-fixtures/production-recovery.json",
+      "sha256": "0ccd09776acfef0d2ba455df50ed90c2c9375b80abc685bd78bd83c4d470c497"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test-fixtures/production-resolution.json",
+      "sha256": "c56fa9ef72835edec1892d8c5852bc2ba37a4c2eb1269f4e4bce57fe43e63d6a"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test-fixtures/production-spend.json",
+      "sha256": "f8f683bcf57b889ff7dd91a46ec8ca6cf4c36ada8c9d558d5fded86d85b6a2a6"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test-fixtures/production-withdrawal-transfer.json",
+      "sha256": "9d3061ee8254c60a48a23cd213629a5b8f3c7c8f6cf29e76b3d47bc0cd2811ef"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test-fixtures/production-withdrawal.json",
+      "sha256": "0f2d925b5036c49a12358468b0494ce43a731d41fc38fc725390ca1e63455c47"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test-fixtures/shared-release.json",
+      "sha256": "1b15cf00ea36126fd02696986a38fd6b61caddc5e78b007b3ec0024e47347f0b"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/approved_payout_panel_test.dart",
+      "sha256": "12f0d6f335d84dbc3be400f6d182568024e361cb3ee75130fc657d5fc6d30c95"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/approved_payout_test.dart",
+      "sha256": "6e378ad780ca5c4a134fd1060a206b31767038a9db5d25e6eb3caefb64c02318"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/device_restart_check_test.dart",
+      "sha256": "d082fb5db46f3d68557d7a3da1333b994440a49e00a8988639e9580c8dc80b36"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/device_selftest_test.dart",
+      "sha256": "b5e376e77a69c398eb61df829bcbf43f63c7be28cda0ce6c3743af20a9b51667"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/draft_consent_panel_test.dart",
+      "sha256": "c9b7c0ad188e0b85d0b3e3f1c13378b38ba1a2ddafa0a80278d4d33b478b961a"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/draft_consent_test.dart",
+      "sha256": "d04db7f73aabb1f28c3c6d822e7c8e126b429902df6484b84c6f982c4ece4b44"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/funding_draft_test.dart",
+      "sha256": "6e4663ee108039791bd7c3770bc1a8aaf11898f29daff2a31dce8c27109497ff"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/production_app_test.dart",
+      "sha256": "fd9e91d19443ee22eae158e0e407c68bd34344cb16d96985e27564fd3879f1e2"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/production_contract_test.dart",
+      "sha256": "944e95fbacae10c7aa9156f8edbc699e9105e2bfecc6a6101a70766e8d4aaab5"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/production_device_store_test.dart",
+      "sha256": "dbcc6f6a7f9fc709a45d2c00e0842eda957a3a5192927f5747793fe0e21a5fbf"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/production_funding_test.dart",
+      "sha256": "4ec379fa514cd6ef84445eb2a520734b9ebce8b1ec41e421666c77589fada963"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/production_identity_test.dart",
+      "sha256": "de1df055a935b997a74bfa9e82a83184792c8e52a865aa4c25f42bc9f536635a"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/production_order_keys_test.dart",
+      "sha256": "12d64025d4c23ce98af98eff4cd78aed8c4f24441cb69a5392a1c7c3cd3ddb43"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/production_recovery_errors_test.dart",
+      "sha256": "75fb95aaa80544a1c3a2f856b7fc9002df192df4fb7b632ae3407193f7767fcf"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/production_resolution_panel_test.dart",
+      "sha256": "b45e647170bca9ab3b66ab01b1db78b4a1e14115c5c5371405ae084b76a9a565"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/production_resolution_test.dart",
+      "sha256": "fd64e6b5c5131495a1d232b5e4e952e419829bf3e6d9693d9694f7eb911ad065"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/production_spend_panel_test.dart",
+      "sha256": "b9ae85a218d86e90b238ae488465cfaf224c5d35fd7197d1e3436d01037ceb45"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/production_spend_test.dart",
+      "sha256": "23212a909f80079f1de7218acd478005258299f4ad5d319fa72f4b42093ee733"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/production_transfer_panel_test.dart",
+      "sha256": "2fcf702efe5a3a9b9bb9aaa4e10f9f0d1edb5da9fe811460545ebc35cccc0b6f"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/production_transfer_test.dart",
+      "sha256": "b808afa0732f9bee7b29c38ba37810d7b3246fd823560791d565953c3a3400ce"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/production_withdrawal_panel_test.dart",
+      "sha256": "72d17cbabdb513570e1eb1f95ab89f07925f3493be247307f98d23b58c4c8713"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/production_withdrawal_test.dart",
+      "sha256": "a1366a242cfe83f2a6f71d29374e17297a5b59896ba26195ed61d586957cd205"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/production_withdrawal_transfer_test.dart",
+      "sha256": "5ef3787469d79008e7048f11a16fcaeba04c7235c1491bf9104bc345e34da056"
+    },
+    {
+      "path": "experiments/escrow-rehearsal/test/rehearsal_test.dart",
+      "sha256": "3b2d41ee958dcdea3075284495459daa7d00252b3e84770c209829a0d4f18c9a"
+    },
+    {
+      "path": "lib/market-accounts.mjs",
+      "sha256": "5586ad0c6b9234a995ea7e3aca26f7a431ba39db0288dfd0c01d1ff98e9f12c2"
+    },
+    {
+      "path": "lib/market-conversations.mjs",
+      "sha256": "a5b0ebf157d4f1e36960346309ec756d0e854d96e5da2bf4d59b54c477077da8"
+    },
+    {
+      "path": "lib/market-engagement.mjs",
+      "sha256": "31f7698b61baf832c906e3ed134ad208183945b7011a030661368bba7d5ce50e"
+    },
+    {
+      "path": "lib/market-escrow-authorization.mjs",
+      "sha256": "e7d023cb1549230b055b76ce89437eb2e8a7b5c64cc23f12da6126f8a2d2f00f"
+    },
+    {
+      "path": "lib/market-escrow-chain.mjs",
+      "sha256": "775e555fb512f9ff0b22ba733b8a545d2f41a04c29c221d132c5aaee75c93db1"
+    },
+    {
+      "path": "lib/market-escrow-contract-store.mjs",
+      "sha256": "f5b38608d44be94cccb32c318d48ca3f8d23592a14528fe83252a5dde911d4d1"
+    },
+    {
+      "path": "lib/market-escrow-contract.mjs",
+      "sha256": "8a2d9868be5ace2d33b5c48ecd3430d848dc144fb8acdbc8500af468a99f4156"
+    },
+    {
+      "path": "lib/market-escrow-economics.mjs",
+      "sha256": "528740a3b43584136cbea23ea345e7288a71543437c0c4ef493fc455125d2ba4"
+    },
+    {
+      "path": "lib/market-escrow-funding-store.mjs",
+      "sha256": "44c7e2ee22844ea15022e666b5149fda9ab52c87ccc34726956c219fb71a26cb"
+    },
+    {
+      "path": "lib/market-escrow-funding.mjs",
+      "sha256": "bccd8f22eb496225bb9666c0d6bf656904de73918e4989f7ab0d1be1c66ff3a7"
+    },
+    {
+      "path": "lib/market-escrow-order-keys.mjs",
+      "sha256": "467a46810d9bb88097ebd93276aaef67e2a66393d3902fa7990f110d820216af"
+    },
+    {
+      "path": "lib/market-escrow-policy.mjs",
+      "sha256": "303fe829a003ff9aab7cf6bbf033fd8272afb00521abaf901b7ce2e8a6e5ca12"
+    },
+    {
+      "path": "lib/market-escrow-preflight.mjs",
+      "sha256": "96c041586d087388222fe3efcaaf776c577402e9082a5e72bed103f40e2835d7"
+    },
+    {
+      "path": "lib/market-escrow-preparation.mjs",
+      "sha256": "7856a4f4c1f5099f5e3b06cad320cdf76d5aa59bc044fc03c749e45a74f7c8f6"
+    },
+    {
+      "path": "lib/market-escrow-psbt.mjs",
+      "sha256": "a2307cc92cbdfe78b6eb070b4ca3114ef899f3ca3fd0ba6451779314ed43d3e3"
+    },
+    {
+      "path": "lib/market-escrow-resolution.mjs",
+      "sha256": "7379ac1e5a914f00f89b747f81919cbf2d98fb8c2d674c5658d9fdd551923b60"
+    },
+    {
+      "path": "lib/market-escrow-setup.mjs",
+      "sha256": "9855ad79692d1eb6a89672d036748e6c40691461bc7797da7e84aad6326f685f"
+    },
+    {
+      "path": "lib/market-escrow-spend.mjs",
+      "sha256": "28314c223d4c32ba6985c02a25784c24d0008e7ef16c71616e1d618386926dee"
+    },
+    {
+      "path": "lib/market-escrow-withdrawal.mjs",
+      "sha256": "c652ab119feb4b9421c74d54d46a0b0e76befed6eff457310be39faa7a0d15f8"
+    },
+    {
+      "path": "lib/market-fee-policy.mjs",
+      "sha256": "54750befab0633e94fb838cde6ca6d80881b7147cae962c22078505789053b1d"
+    },
+    {
+      "path": "lib/market-identity.mjs",
+      "sha256": "05d8ff88d125099071d45609e037dc3b9d46a05fb2a97727786d8b3b4de68366"
+    },
+    {
+      "path": "lib/market-ledger.mjs",
+      "sha256": "a618c898d45a5c7fbdc264b846e2474f729545b1f6c1516d233aa37640be41b9"
+    },
+    {
+      "path": "lib/market-moderation.mjs",
+      "sha256": "700a11af0f69b486ea48258e3b4084a24ada73858edaf1b2e9881979778c6b4d"
+    },
+    {
+      "path": "lib/market-passwords.mjs",
+      "sha256": "2a257ff21ab805991e5fc7367860205bdf02a6b11e4f2de18c2bf381daf8e3f0"
+    },
+    {
+      "path": "lib/market-photos.mjs",
+      "sha256": "bc9708eaaf84d4b00247516d10d381886a1b8c0a079ff08828d8d10dbfe4ae42"
+    },
+    {
+      "path": "lib/market-screening.mjs",
+      "sha256": "944012001b3a019b7b4fef172928d75ef06f6ddd947014c9978d651eee4aaf50"
+    },
+    {
+      "path": "lib/market-trades.mjs",
+      "sha256": "89587e3c03881c295d2ae38304c2ad485c7225acbcbd0594bd378ba3bccc515a"
+    },
+    {
+      "path": "lib/market-usd-pricing.mjs",
+      "sha256": "a4373703b7cd82d94e6baa13ba6124e8ba92ea14a267d6772c2ccb857ebc448d"
+    },
+    {
+      "path": "lib/marketplace.mjs",
+      "sha256": "fe6b2834db3ae1cde0c28c0a4cf0c9aa14fb34b44475a5392aed2790702b1581"
+    },
+    {
+      "path": "lib/store.mjs",
+      "sha256": "02b40ccfd50a07d98ecac380880d374abd1db113bb75b8d77d9d5a47157822f0"
+    },
+    {
+      "path": "public/market-shipping.js",
+      "sha256": "003e6b387509ee2191be510f0f916b97936c2219cf148ecee72ae6401af93a62"
+    },
+    {
+      "path": "test/escrow-production-contract.test.mjs",
+      "sha256": "ef04cb46e10f7ac9b513dc29e3aa13628e79c6434a4116925233b4910c925d9d"
+    },
+    {
+      "path": "test/escrow-production-order-keys.test.mjs",
+      "sha256": "2f1676030dd9442b525fb0c39a5304d9e9c418fbbbd1bf07c236efe8afc21986"
+    },
+    {
+      "path": "test/escrow-production-spend.test.mjs",
+      "sha256": "b9abe2c6675729b585fdddc923ec4b698ce7953e011e0e49e3b1210657426d3c"
+    },
+    {
+      "path": "test/helpers/escrow-binding-fixture.mjs",
+      "sha256": "91b9392ee4d9bf6d39533d6a2616b756d5845dc727ed187ac668b8015784737e"
+    },
+    {
+      "path": "test/helpers/production-funding-fixture.mjs",
+      "sha256": "a8d0fb1c4ce905e4b9817159e2c0ed9dc3eca600ab7b19cc9145acd5cb1507d7"
+    },
+    {
+      "path": "test/helpers/production-signature.mjs",
+      "sha256": "101ba79858851065ac2ab472b8fce6d4ff860937ebf3b8f11b7a55fb66596dd1"
+    },
+    {
+      "path": "test/helpers/production-spend-fixture.mjs",
+      "sha256": "117bd2f0e0e9f931f764a69f1bc3f7d0ac0959d1f3a90284da186a9829519155"
+    }
+  ],
+  "scope": "Selected source and transitive test dependencies; not the full marketplace deployment."
+}

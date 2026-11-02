@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "rules": [
+    {"label": "Weapons or ammunition", "terms": ["weapon", "firearm", "gun", "pistol", "rifle", "ammunition", "ammo", "explosive"]},
+    {"label": "Controlled substances", "terms": ["cocaine", "heroin", "fentanyl", "methamphetamine", "marijuana", "cannabis", "controlled substance", "prescription drug"]},
+    {"label": "Stolen or counterfeit goods", "terms": ["stolen", "counterfeit", "fake passport", "fake id"]},
+    {"label": "Personal data or account access sales", "terms": ["personal data", "identity document", "credit card dump", "stolen account", "database leak", "password dump"]},
+    {"label": "Financial products or investment promises", "terms": ["guaranteed return", "guaranteed profit", "investment opportunity", "investment fund", "ponzi", "pyramid scheme", "currency exchange", "money exchange", "forex"]}
+  ]
+}

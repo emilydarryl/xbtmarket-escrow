@@ -1,0 +1,19 @@
+{
+  "schema": "xbt-escrow-rehearsal-request-v1",
+  "chain": "regtest",
+  "testOnly": true,
+  "scenario": "release",
+  "depositSats": "500000000",
+  "buyerPublicKey": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+  "sellerPublicKey": "03421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc",
+  "marketPublicKey": "021697ffa6fd9de627c077e3d2fe541084ce13300b0bec1146f95ae57f0d0bd6a5",
+  "psbt": "cHNidP8BAFICAAAAAd1M1UPPGVRgWb+9Sv8YbWBFHBGRA6SnRCr++GqOFDcOAQAAAAD9////ARhhzR0AAAAAFgAUqi6Z655qYd3tPKo9XV4h2zTHnCEAAAAAAAEBKwBlzR0AAAAAIgAgqrItRWAtytcBfR0M4HhfWkEoa4xhEj4IaAjnamX/T5ABBWlSIQIWl/+m/Z3mJ8B349L+VBCEzhMwCwvsEUb5WuV/DQvWpSEDQh9fyaIQZURclv25HAweLyQxdBxycTtLmd3LMW8x6fwhA3dK5/hYqUEeXvQka3DGWqxWSZgL5cF4kbvsF4ldoAjLU64iBgIWl/+m/Z3mJ8B349L+VBCEzhMwCwvsEUb5WuV/DQvWpQS5MyhaIgYDQh9fyaIQZURclv25HAweLyQxdBxycTtLmd3LMW8x6fwEqi6Z6yIGA3dK5/hYqUEeXvQka3DGWqxWSZgL5cF4kbvsF4ldoAjLBDYplaYAAA==",
+  "witnessScript": "5221021697ffa6fd9de627c077e3d2fe541084ce13300b0bec1146f95ae57f0d0bd6a52103421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc2103774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb53ae",
+  "funding": {
+    "0e37148e6af8fe2a44a7a40391111c45606d18ff4abdbf59605419cf43d54cdd:1": "500000000"
+  },
+  "maximumFeeSats": "1000",
+  "approvedTransactionHash": "560c29e3df3be7827e7bb36b6530be4e4c186527d718b08b794a7a97566db860",
+  "expectedBuyerSignature": "304402202ce63996f9128b89884a2aae691ad7c780a6e0a74c6e717e6c9dee85fac4e8140220232ffdbfdddf88ad62c00ccd24d6a4a5f8de355adbcd00d8231229d6f860970c21",
+  "expectedSellerSignature": "304402205b484cb0fee662ca280a1bb39a390d7485fa247b1a2080668286be25c1bb89b402200519783868997b583536ab67210982dab68178900000f2b3a1ae25cdb893433821"
+}

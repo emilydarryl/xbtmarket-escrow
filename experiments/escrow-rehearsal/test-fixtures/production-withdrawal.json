@@ -1,0 +1,53 @@
+{
+  "syntheticKeysOnly": true,
+  "requests": [
+    {
+      "schema": "xbt-production-withdrawal-request-v1",
+      "chainProfile": {
+        "network": "main",
+        "genesis": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+        "checkpointHeight": 961640,
+        "checkpointHash": "0000000000000050c1e5f69672f459293be14f46e5a494e7a8c8541396f18eeb"
+      },
+      "origin": "https://xbtmarket.store",
+      "role": "buyer",
+      "publicKey": "02c6047f9441ed7d6d3045406e95c07cd85c778e4b8cef3ca7abac09b95c709ee5",
+      "parentHex": "020000000111111111111111111111111111111111111111111111111111111111111111110000000000feffffff01a83d06000000000016001406afd46bcdfd22ef94ac122aa11f241244a37ecc00000000",
+      "vout": 0,
+      "parent": {
+        "valueSats": "409000",
+        "scriptPubKey": "001406afd46bcdfd22ef94ac122aa11f241244a37ecc",
+        "txid": "9cfe07da50d7965fd34feddd419252ec00a02fbc0bc0800c6053270fa73c2396"
+      },
+      "destination": "bc1qw508d6qejxtdg4y5r3zarvary0c5xw7kv8f3t4",
+      "feeSats": "1000",
+      "outputSats": "408000",
+      "unsignedHex": "020000000196233ca70f2753600c80c00bbc2fa000ec529241dded4fd35f96d750da07fe9c0000000000feffffff01c039060000000000160014751e76e8199196d454941c45d1b3a323f1433bd600000000",
+      "requestHash": "36d1db0ad9992cd6d61dbf175cd73daca8cc68bf2f5c604fb418a091fb8f524f"
+    },
+    {
+      "schema": "xbt-production-withdrawal-request-v1",
+      "chainProfile": {
+        "network": "main",
+        "genesis": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+        "checkpointHeight": 961640,
+        "checkpointHash": "0000000000000050c1e5f69672f459293be14f46e5a494e7a8c8541396f18eeb"
+      },
+      "origin": "https://xbtmarket.store",
+      "role": "seller",
+      "publicKey": "02c6047f9441ed7d6d3045406e95c07cd85c778e4b8cef3ca7abac09b95c709ee5",
+      "parentHex": "020000000111111111111111111111111111111111111111111111111111111111111111110000000000feffffff01a83d06000000000016001406afd46bcdfd22ef94ac122aa11f241244a37ecc00000000",
+      "vout": 0,
+      "parent": {
+        "valueSats": "409000",
+        "scriptPubKey": "001406afd46bcdfd22ef94ac122aa11f241244a37ecc",
+        "txid": "9cfe07da50d7965fd34feddd419252ec00a02fbc0bc0800c6053270fa73c2396"
+      },
+      "destination": "bc1qw508d6qejxtdg4y5r3zarvary0c5xw7kv8f3t4",
+      "feeSats": "1000",
+      "outputSats": "408000",
+      "unsignedHex": "020000000196233ca70f2753600c80c00bbc2fa000ec529241dded4fd35f96d750da07fe9c0000000000feffffff01c039060000000000160014751e76e8199196d454941c45d1b3a323f1433bd600000000",
+      "requestHash": "4d15559f31f5e9443ad96ac65576ecf75d84a5e341cb633e7a61682884925f6b"
+    }
+  ]
+}

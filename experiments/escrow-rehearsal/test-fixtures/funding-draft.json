@@ -1,0 +1,913 @@
+{
+  "draft": {
+    "schema": "xbt-order-funding-draft-v1",
+    "chain": "regtest",
+    "testOnly": true,
+    "fundingEnabled": false,
+    "keyOwnershipVerified": false,
+    "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+    "setupRevision": 5,
+    "setupAgreementHash": "ac2f2a4ffb5603dc57336740088500fd3197df26bd84839fd3e129d8b2493602",
+    "snapshot": {
+      "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+      "listingId": "a74962c2-cd28-463c-a7d8-7d7b1b19b987",
+      "sellerProfileId": "21f75837-ab5e-41f1-8fb1-a4f1351dac8d",
+      "title": "Tracked shipping fixture",
+      "description": "An accurate synthetic item for escrow account-binding checks.",
+      "terms": "One synthetic item including tracked shipping and an agreed inspection period.",
+      "totalXbt": "5.00000000",
+      "delivery": "shipping",
+      "destinationCountry": "United States",
+      "shipping": null,
+      "feePolicy": {
+        "version": "seller-success-v1",
+        "rateBps": 200,
+        "basis": "agreed-total-including-delivery",
+        "payer": "seller",
+        "totalSats": "500000000",
+        "feeSats": "10000000",
+        "currency": "XBT",
+        "method": "XBT-CHAIN",
+        "due": "buyer-completion",
+        "refund": "full-sale-refund-review"
+      }
+    },
+    "snapshotHash": "8689673b38abf27f76270c5fab4bd5a2c13a6c96296c866649764ad211edbca2",
+    "keys": {
+      "buyer": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+      "seller": "03421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc",
+      "market": "021697ffa6fd9de627c077e3d2fe541084ce13300b0bec1146f95ae57f0d0bd6a5"
+    },
+    "sellerPriceSats": "500000000",
+    "buyerFeeReserveSats": "10000",
+    "totalDepositSats": "500010000",
+    "feePolicy": {
+      "payer": "buyer",
+      "unusedReserve": "buyer",
+      "minimumFeeSats": "1000",
+      "maximumReserveSats": "100000",
+      "minimumOutputSats": "546",
+      "platformFeeIncluded": false
+    },
+    "draftHash": "ca91df83bab22f9a18e21172acff12b6ebf9cc68395d7d4ae2b4681a15e99c4d"
+  },
+  "keys": {
+    "buyer": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+    "seller": "03421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc",
+    "market": "021697ffa6fd9de627c077e3d2fe541084ce13300b0bec1146f95ae57f0d0bd6a5"
+  },
+  "rejects": [
+    {
+      "name": "mainnet",
+      "draft": {
+        "schema": "xbt-order-funding-draft-v1",
+        "chain": "mainnet",
+        "testOnly": true,
+        "fundingEnabled": false,
+        "keyOwnershipVerified": false,
+        "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+        "setupRevision": 5,
+        "setupAgreementHash": "ac2f2a4ffb5603dc57336740088500fd3197df26bd84839fd3e129d8b2493602",
+        "snapshot": {
+          "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+          "listingId": "a74962c2-cd28-463c-a7d8-7d7b1b19b987",
+          "sellerProfileId": "21f75837-ab5e-41f1-8fb1-a4f1351dac8d",
+          "title": "Tracked shipping fixture",
+          "description": "An accurate synthetic item for escrow account-binding checks.",
+          "terms": "One synthetic item including tracked shipping and an agreed inspection period.",
+          "totalXbt": "5.00000000",
+          "delivery": "shipping",
+          "destinationCountry": "United States",
+          "shipping": null,
+          "feePolicy": {
+            "version": "seller-success-v1",
+            "rateBps": 200,
+            "basis": "agreed-total-including-delivery",
+            "payer": "seller",
+            "totalSats": "500000000",
+            "feeSats": "10000000",
+            "currency": "XBT",
+            "method": "XBT-CHAIN",
+            "due": "buyer-completion",
+            "refund": "full-sale-refund-review"
+          }
+        },
+        "snapshotHash": "8689673b38abf27f76270c5fab4bd5a2c13a6c96296c866649764ad211edbca2",
+        "keys": {
+          "buyer": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+          "seller": "03421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc",
+          "market": "021697ffa6fd9de627c077e3d2fe541084ce13300b0bec1146f95ae57f0d0bd6a5"
+        },
+        "sellerPriceSats": "500000000",
+        "buyerFeeReserveSats": "10000",
+        "totalDepositSats": "500010000",
+        "feePolicy": {
+          "payer": "buyer",
+          "unusedReserve": "buyer",
+          "minimumFeeSats": "1000",
+          "maximumReserveSats": "100000",
+          "minimumOutputSats": "546",
+          "platformFeeIncluded": false
+        },
+        "draftHash": "bcd7726c047ab216e4aaf744cc5b611b7dcfef049376710fc48346f36c366fd9"
+      }
+    },
+    {
+      "name": "real funds",
+      "draft": {
+        "schema": "xbt-order-funding-draft-v1",
+        "chain": "regtest",
+        "testOnly": false,
+        "fundingEnabled": false,
+        "keyOwnershipVerified": false,
+        "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+        "setupRevision": 5,
+        "setupAgreementHash": "ac2f2a4ffb5603dc57336740088500fd3197df26bd84839fd3e129d8b2493602",
+        "snapshot": {
+          "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+          "listingId": "a74962c2-cd28-463c-a7d8-7d7b1b19b987",
+          "sellerProfileId": "21f75837-ab5e-41f1-8fb1-a4f1351dac8d",
+          "title": "Tracked shipping fixture",
+          "description": "An accurate synthetic item for escrow account-binding checks.",
+          "terms": "One synthetic item including tracked shipping and an agreed inspection period.",
+          "totalXbt": "5.00000000",
+          "delivery": "shipping",
+          "destinationCountry": "United States",
+          "shipping": null,
+          "feePolicy": {
+            "version": "seller-success-v1",
+            "rateBps": 200,
+            "basis": "agreed-total-including-delivery",
+            "payer": "seller",
+            "totalSats": "500000000",
+            "feeSats": "10000000",
+            "currency": "XBT",
+            "method": "XBT-CHAIN",
+            "due": "buyer-completion",
+            "refund": "full-sale-refund-review"
+          }
+        },
+        "snapshotHash": "8689673b38abf27f76270c5fab4bd5a2c13a6c96296c866649764ad211edbca2",
+        "keys": {
+          "buyer": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+          "seller": "03421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc",
+          "market": "021697ffa6fd9de627c077e3d2fe541084ce13300b0bec1146f95ae57f0d0bd6a5"
+        },
+        "sellerPriceSats": "500000000",
+        "buyerFeeReserveSats": "10000",
+        "totalDepositSats": "500010000",
+        "feePolicy": {
+          "payer": "buyer",
+          "unusedReserve": "buyer",
+          "minimumFeeSats": "1000",
+          "maximumReserveSats": "100000",
+          "minimumOutputSats": "546",
+          "platformFeeIncluded": false
+        },
+        "draftHash": "1d558c4c792671ac50dc4d056fd1d27ae24a2f39ff606fad54e513b56a0edbf3"
+      }
+    },
+    {
+      "name": "enable funding",
+      "draft": {
+        "schema": "xbt-order-funding-draft-v1",
+        "chain": "regtest",
+        "testOnly": true,
+        "fundingEnabled": true,
+        "keyOwnershipVerified": false,
+        "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+        "setupRevision": 5,
+        "setupAgreementHash": "ac2f2a4ffb5603dc57336740088500fd3197df26bd84839fd3e129d8b2493602",
+        "snapshot": {
+          "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+          "listingId": "a74962c2-cd28-463c-a7d8-7d7b1b19b987",
+          "sellerProfileId": "21f75837-ab5e-41f1-8fb1-a4f1351dac8d",
+          "title": "Tracked shipping fixture",
+          "description": "An accurate synthetic item for escrow account-binding checks.",
+          "terms": "One synthetic item including tracked shipping and an agreed inspection period.",
+          "totalXbt": "5.00000000",
+          "delivery": "shipping",
+          "destinationCountry": "United States",
+          "shipping": null,
+          "feePolicy": {
+            "version": "seller-success-v1",
+            "rateBps": 200,
+            "basis": "agreed-total-including-delivery",
+            "payer": "seller",
+            "totalSats": "500000000",
+            "feeSats": "10000000",
+            "currency": "XBT",
+            "method": "XBT-CHAIN",
+            "due": "buyer-completion",
+            "refund": "full-sale-refund-review"
+          }
+        },
+        "snapshotHash": "8689673b38abf27f76270c5fab4bd5a2c13a6c96296c866649764ad211edbca2",
+        "keys": {
+          "buyer": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+          "seller": "03421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc",
+          "market": "021697ffa6fd9de627c077e3d2fe541084ce13300b0bec1146f95ae57f0d0bd6a5"
+        },
+        "sellerPriceSats": "500000000",
+        "buyerFeeReserveSats": "10000",
+        "totalDepositSats": "500010000",
+        "feePolicy": {
+          "payer": "buyer",
+          "unusedReserve": "buyer",
+          "minimumFeeSats": "1000",
+          "maximumReserveSats": "100000",
+          "minimumOutputSats": "546",
+          "platformFeeIncluded": false
+        },
+        "draftHash": "4102b1d90568b31aef48ba3bd92faee335207ced5d17855d95ae13c8fa2e848a"
+      }
+    },
+    {
+      "name": "claim ownership",
+      "draft": {
+        "schema": "xbt-order-funding-draft-v1",
+        "chain": "regtest",
+        "testOnly": true,
+        "fundingEnabled": false,
+        "keyOwnershipVerified": true,
+        "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+        "setupRevision": 5,
+        "setupAgreementHash": "ac2f2a4ffb5603dc57336740088500fd3197df26bd84839fd3e129d8b2493602",
+        "snapshot": {
+          "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+          "listingId": "a74962c2-cd28-463c-a7d8-7d7b1b19b987",
+          "sellerProfileId": "21f75837-ab5e-41f1-8fb1-a4f1351dac8d",
+          "title": "Tracked shipping fixture",
+          "description": "An accurate synthetic item for escrow account-binding checks.",
+          "terms": "One synthetic item including tracked shipping and an agreed inspection period.",
+          "totalXbt": "5.00000000",
+          "delivery": "shipping",
+          "destinationCountry": "United States",
+          "shipping": null,
+          "feePolicy": {
+            "version": "seller-success-v1",
+            "rateBps": 200,
+            "basis": "agreed-total-including-delivery",
+            "payer": "seller",
+            "totalSats": "500000000",
+            "feeSats": "10000000",
+            "currency": "XBT",
+            "method": "XBT-CHAIN",
+            "due": "buyer-completion",
+            "refund": "full-sale-refund-review"
+          }
+        },
+        "snapshotHash": "8689673b38abf27f76270c5fab4bd5a2c13a6c96296c866649764ad211edbca2",
+        "keys": {
+          "buyer": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+          "seller": "03421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc",
+          "market": "021697ffa6fd9de627c077e3d2fe541084ce13300b0bec1146f95ae57f0d0bd6a5"
+        },
+        "sellerPriceSats": "500000000",
+        "buyerFeeReserveSats": "10000",
+        "totalDepositSats": "500010000",
+        "feePolicy": {
+          "payer": "buyer",
+          "unusedReserve": "buyer",
+          "minimumFeeSats": "1000",
+          "maximumReserveSats": "100000",
+          "minimumOutputSats": "546",
+          "platformFeeIncluded": false
+        },
+        "draftHash": "6962c018cdb278debd62b2d6aa8abe706c4fd5220e35db10e9e66bee8a837a8e"
+      }
+    },
+    {
+      "name": "deduct seller fee",
+      "draft": {
+        "schema": "xbt-order-funding-draft-v1",
+        "chain": "regtest",
+        "testOnly": true,
+        "fundingEnabled": false,
+        "keyOwnershipVerified": false,
+        "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+        "setupRevision": 5,
+        "setupAgreementHash": "ac2f2a4ffb5603dc57336740088500fd3197df26bd84839fd3e129d8b2493602",
+        "snapshot": {
+          "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+          "listingId": "a74962c2-cd28-463c-a7d8-7d7b1b19b987",
+          "sellerProfileId": "21f75837-ab5e-41f1-8fb1-a4f1351dac8d",
+          "title": "Tracked shipping fixture",
+          "description": "An accurate synthetic item for escrow account-binding checks.",
+          "terms": "One synthetic item including tracked shipping and an agreed inspection period.",
+          "totalXbt": "5.00000000",
+          "delivery": "shipping",
+          "destinationCountry": "United States",
+          "shipping": null,
+          "feePolicy": {
+            "version": "seller-success-v1",
+            "rateBps": 200,
+            "basis": "agreed-total-including-delivery",
+            "payer": "seller",
+            "totalSats": "500000000",
+            "feeSats": "10000000",
+            "currency": "XBT",
+            "method": "XBT-CHAIN",
+            "due": "buyer-completion",
+            "refund": "full-sale-refund-review"
+          }
+        },
+        "snapshotHash": "8689673b38abf27f76270c5fab4bd5a2c13a6c96296c866649764ad211edbca2",
+        "keys": {
+          "buyer": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+          "seller": "03421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc",
+          "market": "021697ffa6fd9de627c077e3d2fe541084ce13300b0bec1146f95ae57f0d0bd6a5"
+        },
+        "sellerPriceSats": "499999000",
+        "buyerFeeReserveSats": "10000",
+        "totalDepositSats": "500010000",
+        "feePolicy": {
+          "payer": "buyer",
+          "unusedReserve": "buyer",
+          "minimumFeeSats": "1000",
+          "maximumReserveSats": "100000",
+          "minimumOutputSats": "546",
+          "platformFeeIncluded": false
+        },
+        "draftHash": "d5d7baad09536352203ab7ef3bc28544e77e425ecccfc9ddd3390c558dfde370"
+      }
+    },
+    {
+      "name": "omit reserve",
+      "draft": {
+        "schema": "xbt-order-funding-draft-v1",
+        "chain": "regtest",
+        "testOnly": true,
+        "fundingEnabled": false,
+        "keyOwnershipVerified": false,
+        "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+        "setupRevision": 5,
+        "setupAgreementHash": "ac2f2a4ffb5603dc57336740088500fd3197df26bd84839fd3e129d8b2493602",
+        "snapshot": {
+          "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+          "listingId": "a74962c2-cd28-463c-a7d8-7d7b1b19b987",
+          "sellerProfileId": "21f75837-ab5e-41f1-8fb1-a4f1351dac8d",
+          "title": "Tracked shipping fixture",
+          "description": "An accurate synthetic item for escrow account-binding checks.",
+          "terms": "One synthetic item including tracked shipping and an agreed inspection period.",
+          "totalXbt": "5.00000000",
+          "delivery": "shipping",
+          "destinationCountry": "United States",
+          "shipping": null,
+          "feePolicy": {
+            "version": "seller-success-v1",
+            "rateBps": 200,
+            "basis": "agreed-total-including-delivery",
+            "payer": "seller",
+            "totalSats": "500000000",
+            "feeSats": "10000000",
+            "currency": "XBT",
+            "method": "XBT-CHAIN",
+            "due": "buyer-completion",
+            "refund": "full-sale-refund-review"
+          }
+        },
+        "snapshotHash": "8689673b38abf27f76270c5fab4bd5a2c13a6c96296c866649764ad211edbca2",
+        "keys": {
+          "buyer": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+          "seller": "03421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc",
+          "market": "021697ffa6fd9de627c077e3d2fe541084ce13300b0bec1146f95ae57f0d0bd6a5"
+        },
+        "sellerPriceSats": "500000000",
+        "buyerFeeReserveSats": "10000",
+        "totalDepositSats": "500000000",
+        "feePolicy": {
+          "payer": "buyer",
+          "unusedReserve": "buyer",
+          "minimumFeeSats": "1000",
+          "maximumReserveSats": "100000",
+          "minimumOutputSats": "546",
+          "platformFeeIncluded": false
+        },
+        "draftHash": "e0e593e7db6141c3fc6df3c791dbcca6afd0cf66865a392198c25d198a140e02"
+      }
+    },
+    {
+      "name": "duplicate keys",
+      "draft": {
+        "schema": "xbt-order-funding-draft-v1",
+        "chain": "regtest",
+        "testOnly": true,
+        "fundingEnabled": false,
+        "keyOwnershipVerified": false,
+        "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+        "setupRevision": 5,
+        "setupAgreementHash": "ac2f2a4ffb5603dc57336740088500fd3197df26bd84839fd3e129d8b2493602",
+        "snapshot": {
+          "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+          "listingId": "a74962c2-cd28-463c-a7d8-7d7b1b19b987",
+          "sellerProfileId": "21f75837-ab5e-41f1-8fb1-a4f1351dac8d",
+          "title": "Tracked shipping fixture",
+          "description": "An accurate synthetic item for escrow account-binding checks.",
+          "terms": "One synthetic item including tracked shipping and an agreed inspection period.",
+          "totalXbt": "5.00000000",
+          "delivery": "shipping",
+          "destinationCountry": "United States",
+          "shipping": null,
+          "feePolicy": {
+            "version": "seller-success-v1",
+            "rateBps": 200,
+            "basis": "agreed-total-including-delivery",
+            "payer": "seller",
+            "totalSats": "500000000",
+            "feeSats": "10000000",
+            "currency": "XBT",
+            "method": "XBT-CHAIN",
+            "due": "buyer-completion",
+            "refund": "full-sale-refund-review"
+          }
+        },
+        "snapshotHash": "8689673b38abf27f76270c5fab4bd5a2c13a6c96296c866649764ad211edbca2",
+        "keys": {
+          "buyer": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+          "seller": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+          "market": "021697ffa6fd9de627c077e3d2fe541084ce13300b0bec1146f95ae57f0d0bd6a5"
+        },
+        "sellerPriceSats": "500000000",
+        "buyerFeeReserveSats": "10000",
+        "totalDepositSats": "500010000",
+        "feePolicy": {
+          "payer": "buyer",
+          "unusedReserve": "buyer",
+          "minimumFeeSats": "1000",
+          "maximumReserveSats": "100000",
+          "minimumOutputSats": "546",
+          "platformFeeIncluded": false
+        },
+        "draftHash": "c04aaca77c21af559263b15a5a4432224435fa398ae291f86f04b92e9a305fed"
+      }
+    },
+    {
+      "name": "fee recipient",
+      "draft": {
+        "schema": "xbt-order-funding-draft-v1",
+        "chain": "regtest",
+        "testOnly": true,
+        "fundingEnabled": false,
+        "keyOwnershipVerified": false,
+        "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+        "setupRevision": 5,
+        "setupAgreementHash": "ac2f2a4ffb5603dc57336740088500fd3197df26bd84839fd3e129d8b2493602",
+        "snapshot": {
+          "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+          "listingId": "a74962c2-cd28-463c-a7d8-7d7b1b19b987",
+          "sellerProfileId": "21f75837-ab5e-41f1-8fb1-a4f1351dac8d",
+          "title": "Tracked shipping fixture",
+          "description": "An accurate synthetic item for escrow account-binding checks.",
+          "terms": "One synthetic item including tracked shipping and an agreed inspection period.",
+          "totalXbt": "5.00000000",
+          "delivery": "shipping",
+          "destinationCountry": "United States",
+          "shipping": null,
+          "feePolicy": {
+            "version": "seller-success-v1",
+            "rateBps": 200,
+            "basis": "agreed-total-including-delivery",
+            "payer": "seller",
+            "totalSats": "500000000",
+            "feeSats": "10000000",
+            "currency": "XBT",
+            "method": "XBT-CHAIN",
+            "due": "buyer-completion",
+            "refund": "full-sale-refund-review"
+          }
+        },
+        "snapshotHash": "8689673b38abf27f76270c5fab4bd5a2c13a6c96296c866649764ad211edbca2",
+        "keys": {
+          "buyer": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+          "seller": "03421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc",
+          "market": "021697ffa6fd9de627c077e3d2fe541084ce13300b0bec1146f95ae57f0d0bd6a5"
+        },
+        "sellerPriceSats": "500000000",
+        "buyerFeeReserveSats": "10000",
+        "totalDepositSats": "500010000",
+        "feePolicy": {
+          "payer": "buyer",
+          "unusedReserve": "seller",
+          "minimumFeeSats": "1000",
+          "maximumReserveSats": "100000",
+          "minimumOutputSats": "546",
+          "platformFeeIncluded": false
+        },
+        "draftHash": "732ccaa0a695ad1719685bf31a5dd7ac8bac9aefee1f7efadbd590872a143a9c"
+      }
+    },
+    {
+      "name": "changed price",
+      "draft": {
+        "schema": "xbt-order-funding-draft-v1",
+        "chain": "regtest",
+        "testOnly": true,
+        "fundingEnabled": false,
+        "keyOwnershipVerified": false,
+        "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+        "setupRevision": 5,
+        "setupAgreementHash": "ac2f2a4ffb5603dc57336740088500fd3197df26bd84839fd3e129d8b2493602",
+        "snapshot": {
+          "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+          "listingId": "a74962c2-cd28-463c-a7d8-7d7b1b19b987",
+          "sellerProfileId": "21f75837-ab5e-41f1-8fb1-a4f1351dac8d",
+          "title": "Tracked shipping fixture",
+          "description": "An accurate synthetic item for escrow account-binding checks.",
+          "terms": "One synthetic item including tracked shipping and an agreed inspection period.",
+          "totalXbt": "4",
+          "delivery": "shipping",
+          "destinationCountry": "United States",
+          "shipping": null,
+          "feePolicy": {
+            "version": "seller-success-v1",
+            "rateBps": 200,
+            "basis": "agreed-total-including-delivery",
+            "payer": "seller",
+            "totalSats": "500000000",
+            "feeSats": "10000000",
+            "currency": "XBT",
+            "method": "XBT-CHAIN",
+            "due": "buyer-completion",
+            "refund": "full-sale-refund-review"
+          }
+        },
+        "snapshotHash": "8689673b38abf27f76270c5fab4bd5a2c13a6c96296c866649764ad211edbca2",
+        "keys": {
+          "buyer": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+          "seller": "03421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc",
+          "market": "021697ffa6fd9de627c077e3d2fe541084ce13300b0bec1146f95ae57f0d0bd6a5"
+        },
+        "sellerPriceSats": "500000000",
+        "buyerFeeReserveSats": "10000",
+        "totalDepositSats": "500010000",
+        "feePolicy": {
+          "payer": "buyer",
+          "unusedReserve": "buyer",
+          "minimumFeeSats": "1000",
+          "maximumReserveSats": "100000",
+          "minimumOutputSats": "546",
+          "platformFeeIncluded": false
+        },
+        "draftHash": "e86deaa23fd16f07af1e523e3ebaf22c20e63437538cff583c779d2307db014b"
+      }
+    },
+    {
+      "name": "extra field",
+      "draft": {
+        "schema": "xbt-order-funding-draft-v1",
+        "chain": "regtest",
+        "testOnly": true,
+        "fundingEnabled": false,
+        "keyOwnershipVerified": false,
+        "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+        "setupRevision": 5,
+        "setupAgreementHash": "ac2f2a4ffb5603dc57336740088500fd3197df26bd84839fd3e129d8b2493602",
+        "snapshot": {
+          "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+          "listingId": "a74962c2-cd28-463c-a7d8-7d7b1b19b987",
+          "sellerProfileId": "21f75837-ab5e-41f1-8fb1-a4f1351dac8d",
+          "title": "Tracked shipping fixture",
+          "description": "An accurate synthetic item for escrow account-binding checks.",
+          "terms": "One synthetic item including tracked shipping and an agreed inspection period.",
+          "totalXbt": "5.00000000",
+          "delivery": "shipping",
+          "destinationCountry": "United States",
+          "shipping": null,
+          "feePolicy": {
+            "version": "seller-success-v1",
+            "rateBps": 200,
+            "basis": "agreed-total-including-delivery",
+            "payer": "seller",
+            "totalSats": "500000000",
+            "feeSats": "10000000",
+            "currency": "XBT",
+            "method": "XBT-CHAIN",
+            "due": "buyer-completion",
+            "refund": "full-sale-refund-review"
+          }
+        },
+        "snapshotHash": "8689673b38abf27f76270c5fab4bd5a2c13a6c96296c866649764ad211edbca2",
+        "keys": {
+          "buyer": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+          "seller": "03421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc",
+          "market": "021697ffa6fd9de627c077e3d2fe541084ce13300b0bec1146f95ae57f0d0bd6a5"
+        },
+        "sellerPriceSats": "500000000",
+        "buyerFeeReserveSats": "10000",
+        "totalDepositSats": "500010000",
+        "feePolicy": {
+          "payer": "buyer",
+          "unusedReserve": "buyer",
+          "minimumFeeSats": "1000",
+          "maximumReserveSats": "100000",
+          "minimumOutputSats": "546",
+          "platformFeeIncluded": false
+        },
+        "psbt": "not-accepted",
+        "draftHash": "27c5a2bc82bea5689ab792a6c318f15341224a8e0b0aa4bfdc4495f8c57ea63e"
+      }
+    },
+    {
+      "name": "revision zero",
+      "draft": {
+        "schema": "xbt-order-funding-draft-v1",
+        "chain": "regtest",
+        "testOnly": true,
+        "fundingEnabled": false,
+        "keyOwnershipVerified": false,
+        "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+        "setupRevision": 0,
+        "setupAgreementHash": "ac2f2a4ffb5603dc57336740088500fd3197df26bd84839fd3e129d8b2493602",
+        "snapshot": {
+          "orderId": "6ac7d70e-1760-4380-91d7-009399d8e507",
+          "listingId": "a74962c2-cd28-463c-a7d8-7d7b1b19b987",
+          "sellerProfileId": "21f75837-ab5e-41f1-8fb1-a4f1351dac8d",
+          "title": "Tracked shipping fixture",
+          "description": "An accurate synthetic item for escrow account-binding checks.",
+          "terms": "One synthetic item including tracked shipping and an agreed inspection period.",
+          "totalXbt": "5.00000000",
+          "delivery": "shipping",
+          "destinationCountry": "United States",
+          "shipping": null,
+          "feePolicy": {
+            "version": "seller-success-v1",
+            "rateBps": 200,
+            "basis": "agreed-total-including-delivery",
+            "payer": "seller",
+            "totalSats": "500000000",
+            "feeSats": "10000000",
+            "currency": "XBT",
+            "method": "XBT-CHAIN",
+            "due": "buyer-completion",
+            "refund": "full-sale-refund-review"
+          }
+        },
+        "snapshotHash": "8689673b38abf27f76270c5fab4bd5a2c13a6c96296c866649764ad211edbca2",
+        "keys": {
+          "buyer": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+          "seller": "03421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc",
+          "market": "021697ffa6fd9de627c077e3d2fe541084ce13300b0bec1146f95ae57f0d0bd6a5"
+        },
+        "sellerPriceSats": "500000000",
+        "buyerFeeReserveSats": "10000",
+        "totalDepositSats": "500010000",
+        "feePolicy": {
+          "payer": "buyer",
+          "unusedReserve": "buyer",
+          "minimumFeeSats": "1000",
+          "maximumReserveSats": "100000",
+          "minimumOutputSats": "546",
+          "platformFeeIncluded": false
+        },
+        "draftHash": "147772254d3c1ccf8a1d0aa9b2352611623fb888d4503ed7be6f29aae14ce992"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "options": {
+        "expectedDraftHash": "ca91df83bab22f9a18e21172acff12b6ebf9cc68395d7d4ae2b4681a15e99c4d",
+        "scenario": "release",
+        "networkFeeSats": "1000"
+      },
+      "expected": {
+        "schema": "xbt-order-payout-plan-v1",
+        "chain": "regtest",
+        "testOnly": true,
+        "fundingEnabled": false,
+        "draftHash": "ca91df83bab22f9a18e21172acff12b6ebf9cc68395d7d4ae2b4681a15e99c4d",
+        "scenario": "release",
+        "networkFeeSats": "1000",
+        "payouts": [
+          {
+            "role": "buyer",
+            "publicKey": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+            "sats": "9000"
+          },
+          {
+            "role": "seller",
+            "publicKey": "03421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc",
+            "sats": "500000000"
+          }
+        ],
+        "planHash": "aa8da1d0deb456ac89ab2511755557ad2c1a97b8421beee6e708eacdf69abdc8"
+      }
+    },
+    {
+      "options": {
+        "expectedDraftHash": "ca91df83bab22f9a18e21172acff12b6ebf9cc68395d7d4ae2b4681a15e99c4d",
+        "scenario": "release",
+        "networkFeeSats": "5000"
+      },
+      "expected": {
+        "schema": "xbt-order-payout-plan-v1",
+        "chain": "regtest",
+        "testOnly": true,
+        "fundingEnabled": false,
+        "draftHash": "ca91df83bab22f9a18e21172acff12b6ebf9cc68395d7d4ae2b4681a15e99c4d",
+        "scenario": "release",
+        "networkFeeSats": "5000",
+        "payouts": [
+          {
+            "role": "buyer",
+            "publicKey": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+            "sats": "5000"
+          },
+          {
+            "role": "seller",
+            "publicKey": "03421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc",
+            "sats": "500000000"
+          }
+        ],
+        "planHash": "0435eab79aeec6476817e3b592a37e68572089eca5af4afebb4ad4be4db2fa22"
+      }
+    },
+    {
+      "options": {
+        "expectedDraftHash": "ca91df83bab22f9a18e21172acff12b6ebf9cc68395d7d4ae2b4681a15e99c4d",
+        "scenario": "release",
+        "networkFeeSats": "10000"
+      },
+      "expected": {
+        "schema": "xbt-order-payout-plan-v1",
+        "chain": "regtest",
+        "testOnly": true,
+        "fundingEnabled": false,
+        "draftHash": "ca91df83bab22f9a18e21172acff12b6ebf9cc68395d7d4ae2b4681a15e99c4d",
+        "scenario": "release",
+        "networkFeeSats": "10000",
+        "payouts": [
+          {
+            "role": "seller",
+            "publicKey": "03421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc",
+            "sats": "500000000"
+          }
+        ],
+        "planHash": "2fe8389df8070359033b71210ae7371063b6c581d4f67034ff98f6818bdadc31"
+      }
+    },
+    {
+      "options": {
+        "expectedDraftHash": "ca91df83bab22f9a18e21172acff12b6ebf9cc68395d7d4ae2b4681a15e99c4d",
+        "scenario": "refund",
+        "networkFeeSats": "1000"
+      },
+      "expected": {
+        "schema": "xbt-order-payout-plan-v1",
+        "chain": "regtest",
+        "testOnly": true,
+        "fundingEnabled": false,
+        "draftHash": "ca91df83bab22f9a18e21172acff12b6ebf9cc68395d7d4ae2b4681a15e99c4d",
+        "scenario": "refund",
+        "networkFeeSats": "1000",
+        "payouts": [
+          {
+            "role": "buyer",
+            "publicKey": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+            "sats": "500009000"
+          }
+        ],
+        "planHash": "65330e7bd5e4b433fb42bd0623f2b5b8b63f55385bc7f8e070b84c6975e3a2db"
+      }
+    },
+    {
+      "options": {
+        "expectedDraftHash": "ca91df83bab22f9a18e21172acff12b6ebf9cc68395d7d4ae2b4681a15e99c4d",
+        "scenario": "refund",
+        "networkFeeSats": "5000"
+      },
+      "expected": {
+        "schema": "xbt-order-payout-plan-v1",
+        "chain": "regtest",
+        "testOnly": true,
+        "fundingEnabled": false,
+        "draftHash": "ca91df83bab22f9a18e21172acff12b6ebf9cc68395d7d4ae2b4681a15e99c4d",
+        "scenario": "refund",
+        "networkFeeSats": "5000",
+        "payouts": [
+          {
+            "role": "buyer",
+            "publicKey": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+            "sats": "500005000"
+          }
+        ],
+        "planHash": "e7652350400ccbe6c751fd05204a7f09a7d165678071d002de89419f435dfd61"
+      }
+    },
+    {
+      "options": {
+        "expectedDraftHash": "ca91df83bab22f9a18e21172acff12b6ebf9cc68395d7d4ae2b4681a15e99c4d",
+        "scenario": "refund",
+        "networkFeeSats": "10000"
+      },
+      "expected": {
+        "schema": "xbt-order-payout-plan-v1",
+        "chain": "regtest",
+        "testOnly": true,
+        "fundingEnabled": false,
+        "draftHash": "ca91df83bab22f9a18e21172acff12b6ebf9cc68395d7d4ae2b4681a15e99c4d",
+        "scenario": "refund",
+        "networkFeeSats": "10000",
+        "payouts": [
+          {
+            "role": "buyer",
+            "publicKey": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+            "sats": "500000000"
+          }
+        ],
+        "planHash": "d9f0a498cd9a567b206fde0440eb1df69a3be7a36d43500f18bb033fe685a350"
+      }
+    },
+    {
+      "options": {
+        "expectedDraftHash": "ca91df83bab22f9a18e21172acff12b6ebf9cc68395d7d4ae2b4681a15e99c4d",
+        "scenario": "split-refund",
+        "networkFeeSats": "1000",
+        "sellerAwardSats": "300000000"
+      },
+      "expected": {
+        "schema": "xbt-order-payout-plan-v1",
+        "chain": "regtest",
+        "testOnly": true,
+        "fundingEnabled": false,
+        "draftHash": "ca91df83bab22f9a18e21172acff12b6ebf9cc68395d7d4ae2b4681a15e99c4d",
+        "scenario": "split-refund",
+        "networkFeeSats": "1000",
+        "payouts": [
+          {
+            "role": "buyer",
+            "publicKey": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+            "sats": "200009000"
+          },
+          {
+            "role": "seller",
+            "publicKey": "03421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc",
+            "sats": "300000000"
+          }
+        ],
+        "planHash": "d5085a059fa01cd30d736befc9f9f0f4aa6de29630c9e201119dfdccc4c9dd85"
+      }
+    },
+    {
+      "options": {
+        "expectedDraftHash": "ca91df83bab22f9a18e21172acff12b6ebf9cc68395d7d4ae2b4681a15e99c4d",
+        "scenario": "split-refund",
+        "networkFeeSats": "5000",
+        "sellerAwardSats": "300000000"
+      },
+      "expected": {
+        "schema": "xbt-order-payout-plan-v1",
+        "chain": "regtest",
+        "testOnly": true,
+        "fundingEnabled": false,
+        "draftHash": "ca91df83bab22f9a18e21172acff12b6ebf9cc68395d7d4ae2b4681a15e99c4d",
+        "scenario": "split-refund",
+        "networkFeeSats": "5000",
+        "payouts": [
+          {
+            "role": "buyer",
+            "publicKey": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+            "sats": "200005000"
+          },
+          {
+            "role": "seller",
+            "publicKey": "03421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc",
+            "sats": "300000000"
+          }
+        ],
+        "planHash": "c6401c5ef2543aefc8bc581625e1377cc5b68c4b05461229158d22846ebaebb4"
+      }
+    },
+    {
+      "options": {
+        "expectedDraftHash": "ca91df83bab22f9a18e21172acff12b6ebf9cc68395d7d4ae2b4681a15e99c4d",
+        "scenario": "split-refund",
+        "networkFeeSats": "10000",
+        "sellerAwardSats": "300000000"
+      },
+      "expected": {
+        "schema": "xbt-order-payout-plan-v1",
+        "chain": "regtest",
+        "testOnly": true,
+        "fundingEnabled": false,
+        "draftHash": "ca91df83bab22f9a18e21172acff12b6ebf9cc68395d7d4ae2b4681a15e99c4d",
+        "scenario": "split-refund",
+        "networkFeeSats": "10000",
+        "payouts": [
+          {
+            "role": "buyer",
+            "publicKey": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+            "sats": "200000000"
+          },
+          {
+            "role": "seller",
+            "publicKey": "03421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc",
+            "sats": "300000000"
+          }
+        ],
+        "planHash": "1799b7db83259b1468ba0d8ceb72cd7df33d6c750e2948c85f965ed4d1753caf"
+      }
+    }
+  ]
+}

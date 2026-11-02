@@ -1,0 +1,295 @@
+{
+  "syntheticKeysOnly": true,
+  "now": 1800000000000,
+  "origin": "https://market.example.test",
+  "entries": [
+    {
+      "role": "buyer",
+      "scalar": 11,
+      "messageHash": "533c4642a9043276562c1ee9636b3092b3052b77344fcf198151ac974ebaa1ca",
+      "request": {
+        "schema": "xbt-production-contract-request-v1",
+        "contract": {
+          "schema": "xbt-production-contract-review-v3",
+          "chainProfile": {
+            "network": "main",
+            "genesis": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+            "checkpointHeight": 961640,
+            "checkpointHash": "0000000000000050c1e5f69672f459293be14f46e5a494e7a8c8541396f18eeb"
+          },
+          "origin": "https://market.example.test",
+          "revision": 1,
+          "preflight": {
+            "schema": "xbt-escrow-order-preflight-v1",
+            "orderId": "3ad27599-cdb9-4fdd-bdd8-606108e881df",
+            "snapshotHash": "0a416cde7a3d13fc7d96e8608c34d1e9132323fc28fb8cb3c67870539eba009b",
+            "accountBindingHash": "20d025b42e4fa0a0714726644dd4b927eece7a1499fac29c2f08086c33c522b8",
+            "paymentMode": "direct",
+            "sellerPriceSats": "500000000",
+            "fundingEnabled": false,
+            "signingEnabled": false,
+            "preflightHash": "ff2ad20c411e6c4039e9e9b0fb3056145a7a2b688cd2a3a8907bc49833276cf9"
+          },
+          "snapshot": {
+            "orderId": "3ad27599-cdb9-4fdd-bdd8-606108e881df",
+            "listingId": "2fa3b7cb-dcb5-4d76-9de0-1f3764f6305d",
+            "sellerProfileId": "67a7b300-a292-4ec5-a313-0698e4aa4939",
+            "title": "Tracked shipping fixture",
+            "description": "An accurate synthetic item for escrow account-binding checks.",
+            "terms": "One synthetic item including tracked shipping and an agreed inspection period.",
+            "totalXbt": "5.00000000",
+            "delivery": "shipping",
+            "destinationCountry": "United States",
+            "shipping": null,
+            "platformFeePolicy": {
+              "version": "seller-success-v1",
+              "rateBps": 200,
+              "basis": "agreed-total-including-delivery",
+              "payer": "seller",
+              "totalSats": "500000000",
+              "feeSats": "10000000",
+              "currency": "XBT",
+              "method": "XBT-CHAIN",
+              "due": "buyer-completion",
+              "refund": "full-sale-refund-review"
+            }
+          },
+          "keys": {
+            "buyer": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+            "seller": "03421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc",
+            "market": "021697ffa6fd9de627c077e3d2fe541084ce13300b0bec1146f95ae57f0d0bd6a5"
+          },
+          "sellerPriceSats": "500000000",
+          "buyerFeeReserveSats": "10000",
+          "totalDepositSats": "500010000",
+          "feePolicy": {
+            "version": "buyer-reserve-review-v1",
+            "payer": "buyer",
+            "unusedReserve": "buyer",
+            "minimumOutputSats": "546",
+            "platformFeeIncluded": false,
+            "replacement": "not-authorized"
+          },
+          "orderKeys": {
+            "buyer": "0207cdc29b9dd1a3b6535e52ec0dee5384ca5f9ad6298cfcaab968ffef4d074f3d",
+            "seller": "02e7a9e9896abcebf59df3a9133c895df36f2c451693096381cdb164c851e5c592",
+            "market": "03d46bfd88e9ca3c84cfe8c1512cb63fe33ca907e705c257788d4d16114c6ed270"
+          },
+          "witnessScript": "52210207cdc29b9dd1a3b6535e52ec0dee5384ca5f9ad6298cfcaab968ffef4d074f3d2102e7a9e9896abcebf59df3a9133c895df36f2c451693096381cdb164c851e5c5922103d46bfd88e9ca3c84cfe8c1512cb63fe33ca907e705c257788d4d16114c6ed27053ae",
+          "scriptPubKey": "0020fc1f60d653012f1242721759ec6ba88a8d7de2c769d0b00bd90b4327fad4144a",
+          "payoutScripts": {
+            "buyer": "0014362995a6e6922a04e0b832a80bc56c33709a42d2",
+            "seller": "0014aa2e99eb9e6a61dded3caa3d5d5e21db34c79c21"
+          },
+          "fundingEnabled": false,
+          "contractHash": "501202bd5d661b331cf416915ecdb1fa8916cd876435d3fbc462b4822ce003d4"
+        },
+        "challenge": {
+          "schema": "xbt-production-contract-challenge-v1",
+          "purpose": "review-production-contract-not-payment",
+          "origin": "https://market.example.test",
+          "contractHash": "501202bd5d661b331cf416915ecdb1fa8916cd876435d3fbc462b4822ce003d4",
+          "orderId": "3ad27599-cdb9-4fdd-bdd8-606108e881df",
+          "revision": 1,
+          "role": "buyer",
+          "publicKey": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+          "nonce": "a84d4c431caf5c2ea4f51513fb3d4db4c956161f43f63c1e865422d29dd89460",
+          "issuedAt": 1800000000000,
+          "expiresAt": 1800000900000
+        }
+      }
+    },
+    {
+      "role": "seller",
+      "scalar": 22,
+      "messageHash": "b748b0c6b4fb7c2db66f3046c007cca74cc045a0aba0f10a47d315c66f7f1462",
+      "request": {
+        "schema": "xbt-production-contract-request-v1",
+        "contract": {
+          "schema": "xbt-production-contract-review-v3",
+          "chainProfile": {
+            "network": "main",
+            "genesis": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+            "checkpointHeight": 961640,
+            "checkpointHash": "0000000000000050c1e5f69672f459293be14f46e5a494e7a8c8541396f18eeb"
+          },
+          "origin": "https://market.example.test",
+          "revision": 1,
+          "preflight": {
+            "schema": "xbt-escrow-order-preflight-v1",
+            "orderId": "3ad27599-cdb9-4fdd-bdd8-606108e881df",
+            "snapshotHash": "0a416cde7a3d13fc7d96e8608c34d1e9132323fc28fb8cb3c67870539eba009b",
+            "accountBindingHash": "20d025b42e4fa0a0714726644dd4b927eece7a1499fac29c2f08086c33c522b8",
+            "paymentMode": "direct",
+            "sellerPriceSats": "500000000",
+            "fundingEnabled": false,
+            "signingEnabled": false,
+            "preflightHash": "ff2ad20c411e6c4039e9e9b0fb3056145a7a2b688cd2a3a8907bc49833276cf9"
+          },
+          "snapshot": {
+            "orderId": "3ad27599-cdb9-4fdd-bdd8-606108e881df",
+            "listingId": "2fa3b7cb-dcb5-4d76-9de0-1f3764f6305d",
+            "sellerProfileId": "67a7b300-a292-4ec5-a313-0698e4aa4939",
+            "title": "Tracked shipping fixture",
+            "description": "An accurate synthetic item for escrow account-binding checks.",
+            "terms": "One synthetic item including tracked shipping and an agreed inspection period.",
+            "totalXbt": "5.00000000",
+            "delivery": "shipping",
+            "destinationCountry": "United States",
+            "shipping": null,
+            "platformFeePolicy": {
+              "version": "seller-success-v1",
+              "rateBps": 200,
+              "basis": "agreed-total-including-delivery",
+              "payer": "seller",
+              "totalSats": "500000000",
+              "feeSats": "10000000",
+              "currency": "XBT",
+              "method": "XBT-CHAIN",
+              "due": "buyer-completion",
+              "refund": "full-sale-refund-review"
+            }
+          },
+          "keys": {
+            "buyer": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+            "seller": "03421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc",
+            "market": "021697ffa6fd9de627c077e3d2fe541084ce13300b0bec1146f95ae57f0d0bd6a5"
+          },
+          "sellerPriceSats": "500000000",
+          "buyerFeeReserveSats": "10000",
+          "totalDepositSats": "500010000",
+          "feePolicy": {
+            "version": "buyer-reserve-review-v1",
+            "payer": "buyer",
+            "unusedReserve": "buyer",
+            "minimumOutputSats": "546",
+            "platformFeeIncluded": false,
+            "replacement": "not-authorized"
+          },
+          "orderKeys": {
+            "buyer": "0207cdc29b9dd1a3b6535e52ec0dee5384ca5f9ad6298cfcaab968ffef4d074f3d",
+            "seller": "02e7a9e9896abcebf59df3a9133c895df36f2c451693096381cdb164c851e5c592",
+            "market": "03d46bfd88e9ca3c84cfe8c1512cb63fe33ca907e705c257788d4d16114c6ed270"
+          },
+          "witnessScript": "52210207cdc29b9dd1a3b6535e52ec0dee5384ca5f9ad6298cfcaab968ffef4d074f3d2102e7a9e9896abcebf59df3a9133c895df36f2c451693096381cdb164c851e5c5922103d46bfd88e9ca3c84cfe8c1512cb63fe33ca907e705c257788d4d16114c6ed27053ae",
+          "scriptPubKey": "0020fc1f60d653012f1242721759ec6ba88a8d7de2c769d0b00bd90b4327fad4144a",
+          "payoutScripts": {
+            "buyer": "0014362995a6e6922a04e0b832a80bc56c33709a42d2",
+            "seller": "0014aa2e99eb9e6a61dded3caa3d5d5e21db34c79c21"
+          },
+          "fundingEnabled": false,
+          "contractHash": "501202bd5d661b331cf416915ecdb1fa8916cd876435d3fbc462b4822ce003d4"
+        },
+        "challenge": {
+          "schema": "xbt-production-contract-challenge-v1",
+          "purpose": "review-production-contract-not-payment",
+          "origin": "https://market.example.test",
+          "contractHash": "501202bd5d661b331cf416915ecdb1fa8916cd876435d3fbc462b4822ce003d4",
+          "orderId": "3ad27599-cdb9-4fdd-bdd8-606108e881df",
+          "revision": 1,
+          "role": "seller",
+          "publicKey": "03421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc",
+          "nonce": "4b0d74ba7570511b2f207f130fc12f3a36516a228c8621a549fb47fdf2887cbd",
+          "issuedAt": 1800000000000,
+          "expiresAt": 1800000900000
+        }
+      }
+    },
+    {
+      "role": "market",
+      "scalar": 33,
+      "messageHash": "b4f01f18f2564a9408de9702f399e6976966c8db3b7a239211f23ef58c26b198",
+      "request": {
+        "schema": "xbt-production-contract-request-v1",
+        "contract": {
+          "schema": "xbt-production-contract-review-v3",
+          "chainProfile": {
+            "network": "main",
+            "genesis": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+            "checkpointHeight": 961640,
+            "checkpointHash": "0000000000000050c1e5f69672f459293be14f46e5a494e7a8c8541396f18eeb"
+          },
+          "origin": "https://market.example.test",
+          "revision": 1,
+          "preflight": {
+            "schema": "xbt-escrow-order-preflight-v1",
+            "orderId": "3ad27599-cdb9-4fdd-bdd8-606108e881df",
+            "snapshotHash": "0a416cde7a3d13fc7d96e8608c34d1e9132323fc28fb8cb3c67870539eba009b",
+            "accountBindingHash": "20d025b42e4fa0a0714726644dd4b927eece7a1499fac29c2f08086c33c522b8",
+            "paymentMode": "direct",
+            "sellerPriceSats": "500000000",
+            "fundingEnabled": false,
+            "signingEnabled": false,
+            "preflightHash": "ff2ad20c411e6c4039e9e9b0fb3056145a7a2b688cd2a3a8907bc49833276cf9"
+          },
+          "snapshot": {
+            "orderId": "3ad27599-cdb9-4fdd-bdd8-606108e881df",
+            "listingId": "2fa3b7cb-dcb5-4d76-9de0-1f3764f6305d",
+            "sellerProfileId": "67a7b300-a292-4ec5-a313-0698e4aa4939",
+            "title": "Tracked shipping fixture",
+            "description": "An accurate synthetic item for escrow account-binding checks.",
+            "terms": "One synthetic item including tracked shipping and an agreed inspection period.",
+            "totalXbt": "5.00000000",
+            "delivery": "shipping",
+            "destinationCountry": "United States",
+            "shipping": null,
+            "platformFeePolicy": {
+              "version": "seller-success-v1",
+              "rateBps": 200,
+              "basis": "agreed-total-including-delivery",
+              "payer": "seller",
+              "totalSats": "500000000",
+              "feeSats": "10000000",
+              "currency": "XBT",
+              "method": "XBT-CHAIN",
+              "due": "buyer-completion",
+              "refund": "full-sale-refund-review"
+            }
+          },
+          "keys": {
+            "buyer": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+            "seller": "03421f5fc9a21065445c96fdb91c0c1e2f2431741c72713b4b99ddcb316f31e9fc",
+            "market": "021697ffa6fd9de627c077e3d2fe541084ce13300b0bec1146f95ae57f0d0bd6a5"
+          },
+          "sellerPriceSats": "500000000",
+          "buyerFeeReserveSats": "10000",
+          "totalDepositSats": "500010000",
+          "feePolicy": {
+            "version": "buyer-reserve-review-v1",
+            "payer": "buyer",
+            "unusedReserve": "buyer",
+            "minimumOutputSats": "546",
+            "platformFeeIncluded": false,
+            "replacement": "not-authorized"
+          },
+          "orderKeys": {
+            "buyer": "0207cdc29b9dd1a3b6535e52ec0dee5384ca5f9ad6298cfcaab968ffef4d074f3d",
+            "seller": "02e7a9e9896abcebf59df3a9133c895df36f2c451693096381cdb164c851e5c592",
+            "market": "03d46bfd88e9ca3c84cfe8c1512cb63fe33ca907e705c257788d4d16114c6ed270"
+          },
+          "witnessScript": "52210207cdc29b9dd1a3b6535e52ec0dee5384ca5f9ad6298cfcaab968ffef4d074f3d2102e7a9e9896abcebf59df3a9133c895df36f2c451693096381cdb164c851e5c5922103d46bfd88e9ca3c84cfe8c1512cb63fe33ca907e705c257788d4d16114c6ed27053ae",
+          "scriptPubKey": "0020fc1f60d653012f1242721759ec6ba88a8d7de2c769d0b00bd90b4327fad4144a",
+          "payoutScripts": {
+            "buyer": "0014362995a6e6922a04e0b832a80bc56c33709a42d2",
+            "seller": "0014aa2e99eb9e6a61dded3caa3d5d5e21db34c79c21"
+          },
+          "fundingEnabled": false,
+          "contractHash": "501202bd5d661b331cf416915ecdb1fa8916cd876435d3fbc462b4822ce003d4"
+        },
+        "challenge": {
+          "schema": "xbt-production-contract-challenge-v1",
+          "purpose": "review-production-contract-not-payment",
+          "origin": "https://market.example.test",
+          "contractHash": "501202bd5d661b331cf416915ecdb1fa8916cd876435d3fbc462b4822ce003d4",
+          "orderId": "3ad27599-cdb9-4fdd-bdd8-606108e881df",
+          "revision": 1,
+          "role": "market",
+          "publicKey": "021697ffa6fd9de627c077e3d2fe541084ce13300b0bec1146f95ae57f0d0bd6a5",
+          "nonce": "63960c35585e718368489e17d64868c43e48ad518f118644f1c1b5d394585e2b",
+          "issuedAt": 1800000000000,
+          "expiresAt": 1800000900000
+        }
+      }
+    }
+  ]
+}

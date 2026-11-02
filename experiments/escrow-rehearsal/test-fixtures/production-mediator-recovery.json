@@ -1,0 +1,28 @@
+{
+  "syntheticKeysOnly": true,
+  "scalar": 33,
+  "passphrase": "PUBLIC SYNTHETIC mediator recovery only",
+  "envelope": {
+    "schema": "xbt-production-recovery-v1",
+    "purpose": "production-escrow-identity",
+    "chainProfile": {
+      "network": "main",
+      "genesis": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+      "checkpointHeight": 961640,
+      "checkpointHash": "0000000000000050c1e5f69672f459293be14f46e5a494e7a8c8541396f18eeb"
+    },
+    "role": "market",
+    "origin": "https://market.example.test",
+    "publicKey": "021697ffa6fd9de627c077e3d2fe541084ce13300b0bec1146f95ae57f0d0bd6a5",
+    "kdf": {
+      "name": "scrypt",
+      "n": 32768,
+      "r": 8,
+      "p": 1,
+      "salt": "CwsLCwsLCwsLCwsLCwsLCw=="
+    },
+    "cipher": "aes-256-gcm",
+    "nonce": "DQ0NDQ0NDQ0NDQ0N",
+    "sealed": "wihoPmgFw6tMkEONxjfdlGuwZ3kFY3YZfkg7gfR9CMUSvahyJAiT8Rq6wXkz7odU"
+  }
+}

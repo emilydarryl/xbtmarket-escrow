@@ -1,0 +1,28 @@
+{
+  "syntheticKeysOnly": true,
+  "scalar": 11,
+  "passphrase": "PUBLIC SYNTHETIC recovery fixture only",
+  "envelope": {
+    "schema": "xbt-production-recovery-v1",
+    "purpose": "production-escrow-identity",
+    "chainProfile": {
+      "network": "main",
+      "genesis": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+      "checkpointHeight": 961640,
+      "checkpointHash": "0000000000000050c1e5f69672f459293be14f46e5a494e7a8c8541396f18eeb"
+    },
+    "role": "buyer",
+    "origin": "https://market.example.test",
+    "publicKey": "03774ae7f858a9411e5ef4246b70c65aac5649980be5c17891bbec17895da008cb",
+    "kdf": {
+      "name": "scrypt",
+      "n": 32768,
+      "r": 8,
+      "p": 1,
+      "salt": "BwcHBwcHBwcHBwcHBwcHBw=="
+    },
+    "cipher": "aes-256-gcm",
+    "nonce": "CQkJCQkJCQkJCQkJ",
+    "sealed": "AJYCpL0CLGMgyzzMQaZojIzYtCe4f1eifbpdS55TpUbj5blovyV8ozkK2/SUxQs1"
+  }
+}

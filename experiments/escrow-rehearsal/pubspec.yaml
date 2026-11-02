@@ -1,0 +1,22 @@
+name: xbt_escrow_rehearsal
+description: Private regtest-only phone rehearsal. Never use real funds.
+publish_to: none
+version: 0.6.0+9
+environment:
+  sdk: '>=3.12.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_secure_storage: 10.0.0
+  bitcoin_base: 7.0.0
+  blockchain_utils: 5.4.0
+  xbt_market_escrow_lab:
+    path: ../escrow-mobile
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 6.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/release.json

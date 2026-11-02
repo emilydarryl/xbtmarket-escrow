@@ -1,0 +1,10 @@
+node_modules/
+.dart_tool/
+build/
+**/test-results/
+.env*
+*.sqlite*
+*.jks
+*.keystore
+local.properties
+key.properties
